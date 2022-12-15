@@ -1,0 +1,44 @@
+.billing {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  direction: rtl;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  margin-bottom: 5rem;
+}
+.billing .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 3px solid;
+}
+
+.billing .billing-items .billing-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+.billing .billing-items .billing-item:not(:first-child) {
+  border-top: 1px dotted;
+}
+
+.billing .total {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  border-top: 1px solid;
+  color: #4d194d
+}
+
+.billing .total span {
+    font-size: 20px;
+    font-weight: bold;
+}
+.billing .paymentMethod {
+  display: flex;
+  column-gap: 3rem;
+}

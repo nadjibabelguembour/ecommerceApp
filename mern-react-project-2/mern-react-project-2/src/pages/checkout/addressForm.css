@@ -1,0 +1,8 @@
+.MuiPaper-root{
+    direction: rtl;
+    text-align: right;
+}
+label{
+    text-align: right;
+    
+}
